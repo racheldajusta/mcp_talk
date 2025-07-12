@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "my_tools": {
+      "url": "http://localhost:8000/sse"
+    },
+    "sequential-thinking": {
+      "command": "podman",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "mcp/sequentialthinking"
+      ]
+    },
+    "hf-mcp-server": {
+      "url": "https://huggingface.co/mcp",
+      "headers": {
+        "Authorization": "Bearer <YOUR_HF_TOKEN>"
+      }
+    },
+  }
+}

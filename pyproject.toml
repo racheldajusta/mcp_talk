@@ -1,0 +1,13 @@
+[project]
+name = "mcp_talk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "fastapi>=0.116.0",
+    "fastmcp>=2.10.4",
+    "markdown>=3.8.2",
+    "uvicorn>=0.35.0",
+    "weasyprint>=65.1",
+]
