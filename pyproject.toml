@@ -7,6 +7,9 @@ requires-python = ">=3.11,<4.0"
 dependencies = [
     "fastapi>=0.116.0",
     "fastmcp>=2.10.4",
+    "google-api-python-client>=2.176.0",
+    "google-auth>=2.40.3",
+    "google-auth-oauthlib>=1.2.2",
     "markdown>=3.8.2",
     "uvicorn>=0.35.0",
     "weasyprint>=65.1",
