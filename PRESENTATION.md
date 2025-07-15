@@ -4,36 +4,27 @@ theme: rose-pine
 class: lead
 paginate: true
 ---
-<!-- _backgroundImage: 'url(./images/cart.jpg)'
-_backgroundSize: cover 
-_backgroundColor: 'rgba(0,0,0,0.5)'
-_color: white -->
+![bg cover](./images/cart.jpg)
+
 ---
 
-## *AI* Is a great tool to add to your *Arsenal*
+## *AI* Is a great tool to add to your Arsenal
 - Helps you undertand new code bases
 - Can genrate a lot of the boring stuff for you
 - You can use multiple models to double check each other, and yourself
 - With the Model Context Protocol (MCP) it can do a lot more
----
-<!-- _backgroundImage: 'url(./images/f1.jpg)'
-_backgroundSize: cover 
-_backgroundColor: 'rgba(0,0,0,0.5)'
-_color: white -->
-##
----
-<!-- _backgroundImage: 'url(./images/crashed.webp)'
-_backgroundSize: cover 
-_backgroundColor: 'rgba(0,0,0,0.5)'
-_color: white -->
+
 ---
 
-<!-- _backgroundImage: 'url(./images/background.jpg)'
-_backgroundSize: cover 
-_backgroundColor: 'rgba(0,0,0,0.5)'
-_color: white -->
+![bg cover](./images/f1.jpg)
 
+---
 
+![bg cover](./images/crashed.webp)
+
+---
+
+![bg coiver](./images/background.jpg)
 
 ---
 
@@ -45,15 +36,15 @@ _color: white -->
 
 
 ---
+![bg contain](./images/diagram.png)
 
-## What you can do with MCP
-- Automate repetitive tasks across different tools
-- Integrate AI models with external APIs and services
-- Orchestrate workflows involving multiple data sources
-- Build custom assistants for research or productivity
-- Connect chatbots to databases or file systems
-- Enable real-time notifications and monitoring
-- Create interactive dashboards or reports
+---
+
+## DEMO - Let's create our own
+
+- Get a new project email from Gmail
+- Create a proposal
+- Convert it to PDF
 
 ---
 
@@ -82,14 +73,6 @@ _color: white -->
    - Managing Grafana
    - Queries, Dashboards, etc.
    - Context about bugs
-
----
-
-## DEMO - Let's create our own
-
-- Get a new project email from Gmail
-- Create a proposal
-- Convert it to PDF
 
 ---
 
@@ -132,6 +115,6 @@ _color: white -->
 ### This talk is available on *github*
 https://github.com/racheldajusta/mcp_talk
 
-![GitHub](./images/github-link.png)
+![w: 400 h:400](./images/github-link.png)
 
 
