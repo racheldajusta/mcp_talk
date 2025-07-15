@@ -12,3 +12,4 @@ wheels/
 # Generated files
 PROPOSAL.md
 *.pdf
+credentials.json

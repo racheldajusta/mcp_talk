@@ -7,7 +7,7 @@ import logging
 
 # Import configuration
 from config import tool_config
-from .gmail_reader import GmailReader
+from .gmail_reader import GmailAPI
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -23,7 +23,7 @@ mcp = FastMCP(tool_config.mcp_server_name)
 async def check_gmail_by_subject(subject: str) -> str:
     """Check Gmail for emails matching a subject and return snippets."""
     try:
-        reader = GmailReader()
+        reader = GmailAPI()
         emails = reader.search_by_subject(subject)
         if not emails:
             return f"No emails found with subject: {subject}"
@@ -54,4 +54,15 @@ async def md_to_pdf(md_path: str, pdf_path: Optional[str] = None) -> str:
         return f"PDF created at: {pdf_file}"
     except Exception as e:
         logger.error(f"Error converting Markdown to PDF: {e}")
+        return f"Error: {e}"
+
+@mcp.tool()
+async def send_email(to: str, subject: str, body: str, attachments: Optional[list] = None) -> str:
+    """Send an email with optional attachments using the Gmail API."""
+    try:
+        reader = GmailAPI()
+        result = reader.send_email(to, subject, body, attachments)
+        return result
+    except Exception as e:
+        logger.error(f"Error sending email: {e}")
         return f"Error: {e}"
