@@ -57,7 +57,7 @@ paginate: true
  - PostgreSQL Pro
     - Database Health Advice and Monitoring
     - Query Plans
-    - Suggests Indexes*
+    - Suggests Indexes
     - *Great with ORMs*   
 ---
 
