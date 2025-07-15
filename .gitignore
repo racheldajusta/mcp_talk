@@ -10,6 +10,7 @@ wheels/
 .venv
 
 # Generated files
-PROPOSAL.md
+*PROPOSAL.md
 *.pdf
 credentials.json
+token.json
