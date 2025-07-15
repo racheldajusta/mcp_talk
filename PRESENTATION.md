@@ -9,10 +9,18 @@ _backgroundSize: cover
 _backgroundColor: 'rgba(0,0,0,0.5)'
 _color: white -->
 ---
+
+## *AI* Is a great tool to add to your *Arsenal*
+- Helps you undertand new code bases
+- Can genrate a lot of the boring stuff for you
+- You can use multiple models to double check each other, and yourself
+- With the Model Context Protocol (MCP) it can do a lot more
+---
 <!-- _backgroundImage: 'url(./images/f1.jpg)'
 _backgroundSize: cover 
 _backgroundColor: 'rgba(0,0,0,0.5)'
 _color: white -->
+##
 ---
 <!-- _backgroundImage: 'url(./images/crashed.webp)'
 _backgroundSize: cover 
@@ -49,28 +57,77 @@ _color: white -->
 
 ---
 
-## How to Build Your Own MCP Server
-1. Install Python and required packages (e.g., fastmcp, fastapi)
-2. Define your custom tools in a Python module
-3. Set up an MCP server using FastAPI or another framework
-4. Register your tools with the MCP server
-5. Configure endpoints and transports (e.g., SSE, HTTP)
-6. Start the server and test your tools via API
-7. Integrate with clients, bots, or other systems
+## Some *Cool* MCP Servers
+ - Sequential Thinking
+    - Helps the Model plan
+ - Memory
+    - Knowledge graph based memory
+    - Gives your *Model* the ability to remember
+ - PostgreSQL Pro
+    - Database Health Advice and Monitoring
+    - Query Plans
+    - Suggests Indexes*
+    - *Great with ORMs*   
+---
+
+## Some *Cool* MCP Servers cont...
+- AWS MCP
+    - Helps with AWS infrastructure design
+    - Versions for:
+        - CDK
+        - TerraForm & CloudFormation
+        - EKS and ECS Servers also available
+
+- Grafana MCP
+   - Managing Grafana
+   - Queries, Dashboards, etc.
+   - Context about bugs
 
 ---
 
-## Demo: Magic 8 Ball
-- Ask any yes/no question
-- Get a random answer
+## DEMO - Let's create our own
+
+- Get a new project email from Gmail
+- Create a proposal
+- Convert it to PDF
 
 ---
 
-## Demo: Markdown to PDF
-- Convert documentation to PDF
-- Use Bootstrap for styling
+## Resources
+
+- AWS MCP Servers
+    - https://awslabs.github.io/mcp/
+
+- Sequential Thinking
+    - https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+
+- Memory
+    - https://github.com/modelcontextprotocol/servers/tree/main/src/memory
+    
+- PostgreSQL Pro
+    - https://github.com/crystaldba/postgres-mcp
 
 ---
 
+## Resources Cont..    
+- Grafana MCP
+    - https://github.com/grafana/mcp-grafana
+
+- FastMCP
+    - https://github.com/jlowin/fastmcp
+
+- Hugging Face MCP Course
+    - http://huggingface.co/learn/mcp-course/en/unit0/introduction
+
+---
+
+## Contact Information
+
+- Rachel Da Justa
+- rachel@artitechs.dev
+- https://artitechs.dev
+
+---
 ## Thank You!
 Questions? Feedback?
+

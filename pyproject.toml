@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 dependencies = [
+    "diagrams>=0.24.4",
     "fastapi>=0.116.0",
     "fastmcp>=2.10.4",
     "google-api-python-client>=2.176.0",
