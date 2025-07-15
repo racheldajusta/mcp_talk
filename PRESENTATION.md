@@ -132,3 +132,6 @@ _color: white -->
 ### This talk is available on *github*
 https://github.com/racheldajusta/mcp_talk
 
+![GitHub](./images/github-link.png)
+
+
