@@ -103,7 +103,7 @@ _color: white -->
 
 - Memory
     - https://github.com/modelcontextprotocol/servers/tree/main/src/memory
-    
+
 - PostgreSQL Pro
     - https://github.com/crystaldba/postgres-mcp
 
@@ -129,5 +129,6 @@ _color: white -->
 
 ---
 ## Thank You!
-Questions? Feedback?
+### This talk is available on *github*
+https://github.com/racheldajusta/mcp_talk
 

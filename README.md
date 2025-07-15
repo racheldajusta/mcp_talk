@@ -3,23 +3,16 @@
 Repo for Rachel Da Justa's talk on MCP.
 
 ## Features
-- Get the current date in YYYY-MM-DD format
-- Ask the Magic 8 Ball for a random response
+2. Presentation available in PRESENTATION.md
 
 ## Installation
 This project uses [uv](https://github.com/astral-sh/uv) and `pyproject.toml` for dependency management. Python 3.11+ is recommended.
 
-
-1. (Optional but recommended) Create and activate a virtual environment:
-   ```sh
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-2. Install [uv](https://github.com/astral-sh/uv) if you don't have it:
+1. Install [uv](https://github.com/astral-sh/uv) if you don't have it:
    ```sh
    pip install uv
    ```
-3. Install dependencies:
+2. Install dependencies:
    ```sh
    uv sync
    ```
@@ -29,7 +22,7 @@ If you encounter issues, ensure you are using a compatible Python version and th
 ## Usage
 1. Start the MCP server:
    ```sh
-   python main.py
+   uv run main.py
    ```
 2. Tools are available via the MCP API (see `mcp.json` for endpoint configuration).
 
