@@ -44,7 +44,7 @@ To add this server to your MCP configuration in Visual Studio Code:
    ```
 3. Save the file. Your MCP server will now be available for use in VS Code MCP workflows.
 
-For more details, see the [MCP documentation](https://github.com/anthropic/model-context-protocol).
+For more details, see the [MCP documentation](https://modelcontextprotocol.io/introduction)
 
 ## License
 MIT
