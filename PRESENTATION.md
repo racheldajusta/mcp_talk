@@ -8,14 +8,6 @@ paginate: true
 
 ---
 
-## *AI* Is a great tool to add to your Arsenal
-- Helps you undertand new code bases
-- Can genrate a lot of the boring stuff for you
-- You can use multiple models to double check each other, and yourself
-- With the Model Context Protocol (MCP) it can do a lot more
-
----
-
 ![bg cover](./images/f1.jpg)
 
 ---
